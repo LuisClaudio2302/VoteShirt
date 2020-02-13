@@ -18,3 +18,13 @@ body {
  .pagina {
 	 height: 100vh;
  }
+ 
+
+#pagina-login {
+    padding-top: 5vh;
+	
+}
+
+div#card-login {
+    height: 89vh;
+}
