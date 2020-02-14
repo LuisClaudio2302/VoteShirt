@@ -2,7 +2,7 @@
 <html>
     <head>
 	
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self';connect-src  http://172.16.21.156/voteshirt/api.php data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -28,14 +28,14 @@
 						<form class="col s12">
 							<div class="row">
 								<div class="input-field col s12">
-									<input id="email" type="email" class="validate">
-									<label for="email">Email</label>
+									<input id="login-email" type="email" class="validate">
+									<label for="login-email">Email</label>
 								</div>
 							</div>
 							<div class="row">
 								<div class="input-field col s12">
-									<input id="password" type="password" class="validate">
-									<label for="password">Password</label>
+									<input id="login-senha" type="password" class="validate">
+									<label for="login-senha">Senha</label>
 								</div>
 							</div>
 						</form>
@@ -64,60 +64,9 @@
 			</ul>
 		</div>
 		
-<<<<<<< HEAD
-=======
 		<div id="pagina-cadastro" style="display:none" class="pagina">
 			<div class="container">
-					<form class="col s12">
-					  <div class="row">
-					     <center><h4><p style = "font-family:arial;"> Cadastre-se</p></h4></center>
-						<div class="input-field col s12">
-						  <input  id="nome" type="text" class="validate">
-						  <label for="nome">Nome</label>
-						</div>		
-					  </div>
-					</form>
-				</div>
-				<div class="container">
-					<form class="col s12">
-					  <div class="row">
-						<div class="input-field col s12">
-						  <input  id="email" type="text" class="validate">
-						  <label for="email">Email</label>
-						</div>		
-					  </div>
-					</form>
-				</div>
-
-				<div class="container">
-					<form class="col s12">
-					  <div class="row">
-						<div class="input-field col s12">
-						  <input  id="email" type="text" class="validate">
-						  <label for="email">Confirmar Email</label>
-						</div>		
-					  </div>
-					</form>
-				</div>
-				
-				<div class="row">
-					<form class="col s12">
-					  <div class="row">
-						 <div class="input-field col s9">
-							  <input id="password" type="text" class="validate">
-							  <label for="password">Senha</label>
-						 </div>
-						 <div class="input-field col s3">
-							  <input id="RM" type="text" class="validate">
-							  <label for="RM">RM</label>
-						 </div>
-				      </div> 
-					</form>
-				</div>	
-					<a href="url">link text</a>
 		</div>
->>>>>>> 7f01037b9328e9c349d17e46d3a2701af20eacf3
-		
 		
 		
         <script type="text/javascript" src="cordova.js"></script>
