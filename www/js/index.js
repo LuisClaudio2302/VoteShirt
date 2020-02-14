@@ -24,6 +24,14 @@ function eventos(){
 		
 	})
 	
+		$("#btcadastro").click(function(){
+		
+		$(".pagina").fadeOut('slow',function(){
+			$("#pagina-login").fadeIn('slow');	
+		});
+		
+	})
+	
 }
 
 
